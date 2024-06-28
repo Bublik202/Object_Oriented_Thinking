@@ -6,14 +6,14 @@ Please be aware that the task status is mandatory.
 ## Decorator
 **Decorator** is a structural design pattern that lets you attach new behaviors to objects by placing these objects inside special wrapper objects that contain the behaviors.
 
-Implement [`com.epam.rd.autocode.decorator.Decorators`](src\main\java\com\epam\rd\autocode\decorator\Decorators.java) method:
+Implement [`com.epam.rd.autocode.decorator.Decorators`](https://github.com/Bublik202/Object_Oriented_Thinking/tree/master/Pattern/design-patterns/src/main/java/com/epam/rd/autocode/decorator) method:
 - `evenIndexElementsSubList` - returns a decorator, that manages only the elements with even indices in a source list. The decorated list should support the "read" methods:
     Decorated list should support "read" methods: `get()`, `size()`, `iterator()`.
     
 ## Factory
 **Abstract Factory** is a creational design pattern that lets you produce families of related objects without specifying their concrete classes.
 
-Implement [`com.epam.rd.autocode.factory.plot.PlotFactories`](src\main\java\com\epam\rd\autocode\factory\plot\PlotFactories.java) methods:
+Implement [`com.epam.rd.autocode.factory.plot.PlotFactories`](https://github.com/Bublik202/Object_Oriented_Thinking/tree/master/Pattern/design-patterns/src/main/java/com/epam/rd/autocode/factory/plot) methods:
 - `classicDisneyPlotFactory` - returns a factory that creates a classic Disney plot (refer to test cases).
 - `contemporaryDisneyPlotFactory` - returns a factory that creates a contemporary Disney plot (refer to test cases).
 - `marvelPlotFactory` - returns a factory that creates a Marvel plot (refer to test cases).
@@ -21,7 +21,7 @@ Implement [`com.epam.rd.autocode.factory.plot.PlotFactories`](src\main\java\com\
 ## Iterator
 **Iterator** is a behavioral design pattern that lets you traverse elements of a collection without exposing its underlying representation.
 
-Implement [`com.epam.rd.autocode.iterator.Iterators`](src\main\java\com\epam\rd\autocode\iterator\Iterators.java) methods:
+Implement [`com.epam.rd.autocode.iterator.Iterators`](https://github.com/Bublik202/Object_Oriented_Thinking/tree/master/Pattern/design-patterns/src/main/java/com/epam/rd/autocode/iterator) methods:
 - `intArrayTwoTimesIterator` - returns an Iterator that iterates over given array but returns each array element 2 times.
 - `intArrayThreeTimesIterator` - returns an Iterator that iterates over given array but returns each array element 3 times.
 - `intArrayFiveTimesIterator` - returns an Iterator that iterates over given array but returns each array element 5 times.
@@ -30,7 +30,7 @@ Implement [`com.epam.rd.autocode.iterator.Iterators`](src\main\java\com\epam\rd\
 ## Observer
 **Observer** is a behavioral design pattern that lets you define a subscription mechanism to notify multiple objects about any events that happen with the object they’re observing.
 
-Implement [`com.epam.rd.autocode.observer.git.GitRepoObservers`](src\main\java\com\epam\rd\autocode\observer\git\GitRepoObservers.java) methods:
+Implement [`com.epam.rd.autocode.observer.git.GitRepoObservers`](https://github.com/Bublik202/Object_Oriented_Thinking/tree/master/Pattern/design-patterns/src/main/java/com/epam/rd/autocode/observer/git) methods:
 - `newRepository` - returns a Repository. It supports commits to various branches and merges between branches.
 Also, it supports WebHooks - observers that observes commit or merge events.
 - `mergeToBranchWebHook` - returns a WebHook that observes merge events for a target branch.
@@ -49,7 +49,7 @@ The rest of the card deck becomes a "Remaining" stack.
 
 Note that at first, cards are dealt to players, one per round and then cards are dealt to additional stacks and the remaining deck becomes a "Remaining" stack.
 
-Implement [`com.epam.rd.autocode.startegy.cards.CardDealingStrategies`](src\main\java\com\epam\rd\autocode\startegy\cards\CardDealingStrategies.java) methods:
+Implement [`com.epam.rd.autocode.startegy.cards.CardDealingStrategies`](https://github.com/Bublik202/Object_Oriented_Thinking/tree/master/Pattern/design-patterns/src/main/java/com/epam/rd/autocode/startegy/cards) methods:
 - `texasHoldemCardDealingStrategy` - returns a CardDealingStrategy for Texas Hold'em Poker.
 2 cards per player, 5 cards in additional "Community" stack.
 - `classicPokerCardDealingStrategy` - returns a CardDealingStrategy for Classic Poker.
